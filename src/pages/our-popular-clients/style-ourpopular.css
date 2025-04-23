@@ -1,0 +1,42 @@
+@import url(../../styles/global.css);
+
+/*---------------Our Popular Courses--------------------*/
+.ourpopular{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    margin: 50px;
+}
+
+.ourpopular-conteiner h2{
+   width: 268px;
+   margin-bottom: 35px;
+}
+
+.ourpopular-conteiner p{
+    width: 345px;
+    margin-bottom: 35px;
+}
+
+.ourpopular-conteiner{
+    border-top: 6px solid var(--color--danger);
+    width: 95px;
+    border-radius: 0%;
+    padding: 20px 0px;
+    margin-top: 20px;
+}
+
+.ourpopular-conteiner button{
+    color: #96BB7C;
+    background-color: white;
+}
+
+
+.learn-more button{
+    display: flex;
+    align-items: center;
+    margin-top: 35px;
+    gap: 10px;
+    font-size: 12px;
+    font-family: var( --font--family--bold); 
+}

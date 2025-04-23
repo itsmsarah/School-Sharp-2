@@ -1,0 +1,42 @@
+@import url(../../styles/global.css);
+
+.coments-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 96px;
+}
+.coments-content{
+    text-align: center;
+  
+}
+.cards-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.coments-cards p{
+    width: 303px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.coments-cards{
+    text-align: center;
+}
+.stars-coments{     
+    display: flex;
+    justify-content: center;   
+    margin-bottom: 15px;
+}
+.coments-cards-content{
+    padding: 30px;
+}
+.coments-cards-content h3{
+    margin-bottom: 5px;
+}
+.profession{
+    color: var(--color--text--grey);
+    font-size: 14px;
+    font-family: var(  --font--family--bold)
+}

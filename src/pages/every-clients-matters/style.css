@@ -1,0 +1,149 @@
+@import url(../../styles/global.css);
+
+.every-clients-container{
+    margin-top: 93px;
+}
+
+.container-book-training{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+}
+
+.every-clients-content{
+    text-align: center;
+}
+
+.every-clients-content p{
+    color: var(--color--text--grey);
+    width: 463px;
+    margin: 0 auto;
+}
+.every-clients-content h2{
+    margin-bottom: 10px;
+    font-size: var( --font--size--h2);
+
+}
+.sale{
+    display: flex;
+    background-color: var( --color--danger);
+    color: var(  --color--neutral--white);
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.img-book-libery{
+    background-image: url('../../assets/images/img-lapis.svg');
+    width: 348px;
+    height: 300px;
+    display: flex;
+}
+.icons-de-compra{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-bottom: 24px;
+}
+.img-training-courses{
+    background-image: url('../../assets/images/img-lapis-amarelo.svg');
+    width: 348px;
+    height: 300px;
+    display: flex;
+}
+.book-training-content{
+    padding: 25px 25px 35px 25px;
+}
+.books-training-link{
+    display: flex;
+    justify-content: space-between;
+    width: 298px;
+    height: 26px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.avaliação{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    background-color: var(--color--dark--background-color);
+    border-radius: 20px;
+    padding:5px;
+    gap: 5px;
+    color: var(--color--neutral--white);
+}
+.books-training-p{
+    color: var( --color--primary--green);
+    font-family: var( --font--family--bold);
+}
+.book-training-h3{
+    width: 131px;
+    font-family:var(--font--family--bold);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.sales{
+    display: flex;
+    justify-content: center;
+    width: 83px;
+    height: 24px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.sales p{
+    color:var(  --color--text--grey);
+    font-family: var(--font--family--bold);
+
+}
+.icon-download img{
+    width: 16px;
+    height: 16px;
+}
+.prices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 112px;
+    height: 34px;
+    margin-bottom: 10px;
+}
+.p-we-focus{
+    width: 280px;
+    margin-bottom: 10px;
+    color: var(--color--text--grey);
+}
+.span-orange-p{
+    color: var(--color--text--orange);
+    font-family: var(--font--family--bold);
+   font-size: var(--font--size--medium--p); 
+}
+.span-grey-p{
+    color: var( --color--muted--grey);
+    font-family: var(--font--family--bold);
+    font-size: var(--font--size--medium--p); 
+}
+.bnt-learn-more{
+    display: flex;
+    justify-content: center;
+    background:none;
+    border: 1px solid var(--color--primary--green);
+    border-radius:37px ;
+    padding: 10px 20px;
+    
+}
+.bnt-learn-more a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--color--primary--green);
+    text-align: center;
+    font-family: var( --font--size--p);
+    font-family: var(--font--family--bold);
+    gap: 10px;
+}
